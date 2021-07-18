@@ -10,9 +10,9 @@
 
 }
 .navbar ul a{
-    padding: 30px;
+    padding: 20px;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 .navbar ul a:hover{
     background-color: rgba(0, 0, 0, 0.37);
@@ -22,5 +22,5 @@
     padding: 10px;
     margin-top: 5px;
     height: 80px;
-    background-color: bisque;
+    background-color: #f05800;
 }
