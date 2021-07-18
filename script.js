@@ -16,30 +16,36 @@ var day = parseInt(arr[6]+arr[7])
 
 function dayOfWeek(){
     var when = ( ( (cent/4) -2*cent-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day )%7
-    var day = Math. trunc(when);
+    var dayW = Math. trunc(when);
     var arryDays = [
         male = {
+        Saturday: "Kwame",
         Sunday: "Kwasi",
         Monday: "Kwadwo",
         Tuesday: "Kwabena",
         Wednesday: "Kwaku",
         Thursday:  "Yaw",
-        Friday: "Kofi",
-        Saturday: "Kwame" 
+        Friday: "Kofi"
                  },
         female = {
+            Saturday: "Ama",
             Sunday: "Akosua",
             Monday: "Adwoa",
             Tuesday: "Abenaa",
             Wednesday: "Akua",
             Thursday:  "Yaa",
-            Friday: "Afua",
-            Saturday: "Ama"
+            Friday: "Afua"
                     }
                       ]
-                      
+if(dataThree == false && dataFour == false){
+ alert("please input your gender")
+}
+if(dataTwo == ""){
+    alert("please input your name")
+
+}
 
 
-return when
+return dayW
 }
 
