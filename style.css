@@ -58,9 +58,27 @@
 
 
 .foot{
-    height: 200px;
+    height: 400px;
     overflow: hidden;
+    margin-top: 40px;
 }
 .foot img{
     min-width: 100%;
+}
+.foot div{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+}
+.foot div button{
+    margin-top: 150px;
+    width: 150px;
+    font-size: 1.2em;
+}
+.foot div button:hover{
+    background-color: rgba(0, 0, 0, 0.329);
+    color: whitesmoke;
 }
