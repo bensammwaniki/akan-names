@@ -54,5 +54,13 @@
 }
 .frm:hover{
     font-size: 1.1em;
-    animation-timing-function: 5s ease-in;
+}
+
+
+.foot{
+    height: 200px;
+    overflow: hidden;
+}
+.foot img{
+    min-width: 100%;
 }
