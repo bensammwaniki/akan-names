@@ -41,9 +41,10 @@ if(dataThree == false && dataFour == false){
  alert("please input your gender")
 }
 if(dataTwo == ""){
-    alert("please input your name")
+    alert("please input your DOB")
 
 }
+
 
 
 return dayW
