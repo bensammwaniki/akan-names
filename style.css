@@ -41,3 +41,18 @@
     text-align: center;
     font-size: 1.2em;
 }
+/* styling form  */
+
+.frm{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border: 0.5px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 9px gray;
+}
+.frm:hover{
+    font-size: 1.1em;
+    animation-timing-function: 5s ease-in;
+}
