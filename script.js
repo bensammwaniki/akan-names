@@ -49,12 +49,81 @@ function dayOfWeek(){
                                 alert("please input your DOB")
 
                             }
+                            // verifying male names
+
                             if(dataThree == true && dayW == 0){
                                 document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
-                                   console.log(dataOne)
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                            }
+                            if(dataThree == true && dayW == 1){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                            }
+                            if(dataThree == true && dayW == 2){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                            }
+                            if(dataThree == true && dayW == 3){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                            }
+                            if(dataThree == true && dayW == 4){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                            }
+                            if(dataThree == true && dayW == 5){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                            }
+                            if(dataThree == true && dayW == 6){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
                             }
 
+                        //   verify female names
 
-
+                            if(dataFour == true && dayW == 0){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                            }
+                            if(dataFour == true && dayW == 1){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Sunday
+                            }
+                            if(dataFour == true && dayW == 2){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Monday
+                            }
+                            if(dataFour == true && dayW == 3){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Tuesday
+                            }
+                            if(dataFour == true && dayW == 4){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Wednesday
+                            }
+                            if(dataFour == true && dayW == 5){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Thursday
+                            }
+                            if(dataFour == true && dayW == 6){
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
+                                document.getElementById("nameDisp1").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
+                                document.getElementById("nameDisp2").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Friday
+                            }
 return dayW
 } 
+
