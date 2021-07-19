@@ -19,7 +19,7 @@ boostrap}
 ## Support and contact details
 {for more infor about the app email benson.mwaniki@student.moringaschool.com.
 Bensam Mwaniki}
-{to view the app click on this link}
+{to view the app click on this link -> https://bensammwaniki.github.io/akan-names/}
 ### License
 *{mit licence.  See below for more details on licensing.}*
 Copyright (c) {2021} **{melenial agency}**
