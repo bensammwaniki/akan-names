@@ -1,10 +1,6 @@
-// Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
-
-// getting the data from the form 
-
 
 function dayOfWeek(){
-
+           // getting data from html
             var dataOne = document.getElementById("name").value
             var dataTwo = document.getElementById("date").value
             var dataThree = document.getElementById("male").checked
@@ -20,26 +16,26 @@ function dayOfWeek(){
 
     var when = ( ( (cent/4) -2*cent-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day )%7
     var dayW = Math. trunc(when);
-    var arryDays = [
-        male = {
-        Saturday:"Kwame",
-        Sunday: "Kwasi",
-        Monday: "Kwadwo",
-        Tuesday: "Kwabena",
-        Wednesday: "Kwaku",
-        Thursday:  "Yaw",
-        Friday: "Kofi"
-                 },
-        female = {
-            Saturday: "Ama",
-            Sunday: "Akosua",
-            Monday: "Adwoa",
-            Tuesday: "Abenaa",
-            Wednesday: "Akua",
-            Thursday:  "Yaa",
-            Friday: "Afua"
-                    }
-                      ]
+        var arryDays = [
+            male = {
+            Saturday:"Kwame",
+            Sunday: "Kwasi",
+            Monday: "Kwadwo",
+            Tuesday: "Kwabena",
+            Wednesday: "Kwaku",
+            Thursday:  "Yaw",
+            Friday: "Kofi"
+                    },
+            female = {
+                Saturday: "Ama",
+                Sunday: "Akosua",
+                Monday: "Adwoa",
+                Tuesday: "Abenaa",
+                Wednesday: "Akua",
+                Thursday:  "Yaa",
+                Friday: "Afua"
+                        }
+                        ]
 
 
                             if(dataThree == false && dataFour == false){
