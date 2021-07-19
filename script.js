@@ -50,8 +50,8 @@ function dayOfWeek(){
 
                             }
                             if(dataThree == true && dayW == 0){
-                                
-                                   console.log(arryDays[0].Saturday)
+                                document.getElementById("nameDisp").innerHTML="Wow see "+ dataOne + " your akan name is " + arryDays[0].Saturday
+                                   console.log(dataOne)
                             }
 
 
