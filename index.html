@@ -18,7 +18,7 @@
                 <h1>Akan</h1>
                 <ul>
                     <a href="http://">ABOUT</a>
-                    <a href="">CONTACT</a>
+                    <a href="#con"data-bs-toggle="modal" data-bs-target="#contact">CONTACT</a>
                 </ul>
 
             </nav>
@@ -92,12 +92,51 @@
 
         <div class="foot">
             <div>
-                <button type="button" class="btn btn-light">CONTACT</button>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contact" id="con">CONTACT</button>
             </div>
 
             <img src="assets/pexels-johannes-plenio-2080960.jpg" alt="">
         </div>
     </div>
+
+
+      <!-- Modal -->  
+  <div class="modal fade" id="contact" tabindex="-1" aria-labelledby="contact" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact us</h5>
+        </div>
+        <div class="modal-body">
+            <!-- form  -->
+            <form>
+                <div class="mb-3">
+                <label for="1stname" class="col-form-label">First Namme:</label>
+                <input type="text" class="form-control" id="1stname">
+                </div>
+                <div class="mb-3">
+                    <label for="2ndname" class="col-form-label">Second Name:</label>
+                    <input type="text" class="form-control" id="2ndname">
+                    </div>
+                <div class="mb-3">
+                <label for="mail" class="col-form-label">Email:</label>
+                <input class="form-control" id="mail"></input>
+                </div>
+                <div class="mb-3">
+                    <label for="text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="text"></textarea>
+                </div>
+            </form>
+            <!-- form  -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+
+  </div>
     <script src="script.js"></script>
 </body>
 </html>
